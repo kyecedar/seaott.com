@@ -130,11 +130,16 @@ span.coppied::after {
     flex-direction: column;
 }
 
-.body {
+.body,
+.steps {
     display: flex;
     flex-direction: column;
 
     white-space: nowrap;
+}
+
+.steps {
+    margin-left: 18px;
 }
 
 footer {
